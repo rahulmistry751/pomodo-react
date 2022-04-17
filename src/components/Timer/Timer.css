@@ -1,0 +1,27 @@
+.pomodoro-container {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+.timer-container {
+  width: 40%;
+  min-width: 18rem;
+  height: 100%;
+}
+.task-container {
+  width: 60%;
+}
+.task-heading {
+  text-align: center;
+}
+.timer-controls {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+.timer-reset {
+  width: 100%;
+  text-align: center;
+}
