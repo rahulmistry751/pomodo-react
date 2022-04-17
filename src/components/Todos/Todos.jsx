@@ -20,7 +20,9 @@ const Todos = () => {
           todoState.todos.map((todo) => {
             return (
               <li className="list-item todos-item" key={todo.id}>
-                <div className="todo-title fs-20 fw-600">{todo.title}</div>
+                <Link to="/timer" className="todo-title fs-20 fw-600">
+                  {todo.title}
+                </Link>
                 <div className="todo-action-controls">
                   <span
                     className="todo-edit"
