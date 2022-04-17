@@ -1,8 +1,9 @@
 import "./App.css";
-import { Sidebar, Todos, Timer } from "./components";
+import { Sidebar, Todos, Timer, Editor } from "./components";
 import { Routes, Route } from "react-router-dom";
-
+import { useTodos } from "./context/todos-context";
 function App() {
+  const { todoState } = useTodos();
   return (
     <div className="wrapper">
       <div className="container">
@@ -13,7 +14,7 @@ function App() {
             <Route path="/timer" element={<Timer />}></Route>
           </Routes>
         </div>
-        {/* <Editor /> */}
+        {todoState.isModal && <Editor />}
       </div>
     </div>
   );
