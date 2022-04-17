@@ -1,0 +1,18 @@
+.pomodoro-sidebar {
+  background-color: var(--background-light);
+}
+.pomodoro-brandname {
+  margin: 2rem;
+  color: var(--primary);
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.list-item {
+  text-align: center;
+}
+.list-item:hover {
+  background-color: var(--gray-light);
+}

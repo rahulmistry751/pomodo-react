@@ -1,0 +1,28 @@
+.todos-container {
+  height: 90%;
+  width: 90%;
+  background-color: var(--background-light);
+  border-radius: 0.5rem;
+}
+.todos-header {
+  margin: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todos-list {
+  width: 70%;
+  margin: auto;
+}
+.todos-item {
+  color: var(--font-color);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+.todo-edit {
+  margin-right: 1rem;
+}

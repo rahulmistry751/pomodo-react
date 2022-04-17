@@ -1,0 +1,18 @@
+:root {
+  --primary: #9333EA;
+  --primary-moderate: #7e22ce;
+  --primary-light: #e9d5ff;
+  --secondary: #10b981;
+  --secondary-dark: #00947e;
+  --secondary-moderate: #34d399;
+  --secondary-light: #a5b4fc;
+  --font-color: #18181b;
+  --font-color-invert: #ffff;
+  --gray: #6b7280;
+  --gray-dark: #374151;
+  --gray-moderate: #9ca3af;
+  --gray-light: #F3F4F6;
+  --font-family:font-family: "Inter", sans-serif;
+   --background:#F9FAFB;
+  --background-light:white;
+}

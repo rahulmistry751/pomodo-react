@@ -1,0 +1,31 @@
+.modal-container {
+  width: 100%;
+}
+.modal {
+  min-width: 24rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+  padding: 1.8rem;
+}
+.editor-container {
+  width: 18.75rem;
+}
+.input-container {
+  width: 100%;
+}
+.input {
+  background-color: var(--background);
+  height: 3rem;
+  padding: 1rem;
+}
+.todo-description {
+  height: 6rem;
+  resize: none;
+}
+
+.editor-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
